@@ -70,10 +70,9 @@ console.log(arr3);
 
 console.log('-------------#11');
 function splitString(stringToSplit, separator) {
-    let arrayOfStrings = stringToSplit.split(separator);
-    console.log(arrayOfStrings);
+    return stringToSplit.split(separator);
 }
-splitString('Hello, Peaceful World', ', ');
+console.log(splitString('Hello, Peaceful World', ', '));
 
 
 
